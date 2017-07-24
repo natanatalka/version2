@@ -1,0 +1,47 @@
+{
+  "id": "app",
+  "name": "VersioningApp",
+  "startScreen": "app.blank",
+  "screens": [
+    {
+      "id": "blank",
+      "name": "BLANK",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "version1",
+      "name": "version1",
+      "folder": true,
+      "screens": [
+        {
+          "id": "formsmallcool",
+          "name": "FormSmall-Cool",
+          "sourceScreenId": "app.formsmall.formsmallcool",
+          "sourceAppId": "universaltemplates",
+          "model": "formsmallcool"
+        }
+      ]
+    },
+    {
+      "id": "version2",
+      "name": "version2",
+      "folder": true,
+      "screens": []
+    }
+  ],
+  "sourceAppId": "_blank",
+  "sourceScreenId": "app"
+}
