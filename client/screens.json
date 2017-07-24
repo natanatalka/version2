@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "VersioningApp",
-  "startScreen": "app.version1.formsmallcool",
+  "startScreen": "app.menu",
   "screens": [
     {
       "id": "blank",
