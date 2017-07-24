@@ -36,16 +36,17 @@
       ]
     },
     {
-      "id": "version3",
-      "name": "version3",
-      "folder": true,
-      "screens": []
-    },
-    {
       "id": "version2",
       "name": "version2",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "version3",
+          "name": "version3",
+          "folder": true,
+          "screens": []
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",
