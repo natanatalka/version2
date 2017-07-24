@@ -45,19 +45,6 @@
       "id": "version3",
       "name": "version3",
       "folder": true,
-      "screens": [
-        {
-          "id": "111",
-          "name": "111",
-          "folder": true,
-          "screens": []
-        }
-      ]
-    },
-    {
-      "id": "version3",
-      "name": "version3",
-      "folder": true,
       "screens": []
     }
   ],
