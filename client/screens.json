@@ -1,19 +1,13 @@
 {
   "id": "app",
   "name": "VersioningApp",
-  "startScreen": "app.blank",
+  "startScreen": "app.menu",
   "screens": [
     {
       "id": "blank",
       "name": "BLANK",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.blank"
-    },
-    {
-      "id": "version2",
-      "name": "version2",
-      "folder": true,
-      "screens": []
     },
     {
       "id": "menu",
@@ -42,16 +36,17 @@
       ]
     },
     {
-      "id": "version3",
-      "name": "version3",
+      "id": "version2",
+      "name": "version2",
       "folder": true,
-      "screens": []
-    },
-    {
-      "id": "version3",
-      "name": "version3",
-      "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "version3",
+          "name": "version3",
+          "folder": true,
+          "screens": []
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",
