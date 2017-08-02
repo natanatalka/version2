@@ -10,6 +10,12 @@
       "sourceScreenId": "app.blank"
     },
     {
+      "id": "version2",
+      "name": "version2",
+      "folder": true,
+      "screens": []
+    },
+    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -34,12 +40,6 @@
           "model": "formsmallcool"
         }
       ]
-    },
-    {
-      "id": "version2",
-      "name": "version2",
-      "folder": true,
-      "screens": []
     },
     {
       "id": "version3",
