@@ -4,10 +4,5 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "9a8526f3",
   "uiCommonVersion": "5.0.42",
-  "creatorId": "test",
-  "id": "version2",
-  "previewImageURL": "/previews/9a8526f3-version2/app/version1/formsmallcool.png",
-  "isVersioned": true,
-  "githubRepo": "https://github.com/natanatalka/version2",
-  "creatorName": "test"
+  "creatorId": "test"
 }
