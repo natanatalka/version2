@@ -129,9 +129,6 @@
       },
       "submit": {
         "type": "action"
-      },
-      "sex": {
-        "type": "string"
       }
     }
   }
