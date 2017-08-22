@@ -25,14 +25,15 @@
       "id": "444",
       "name": "444",
       "folder": true,
-      "screens": []
-    },
-    {
-      "id": "tabscool",
-      "name": "Tabs-Cool",
-      "sourceScreenId": "app.tabbednavigation.tabscool",
-      "sourceAppId": "universaltemplates",
-      "model": "tabscool"
+      "screens": [
+        {
+          "id": "tabscool",
+          "name": "Tabs-Cool",
+          "sourceScreenId": "app.tabbednavigation.tabscool",
+          "sourceAppId": "universaltemplates",
+          "model": "tabscool"
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",

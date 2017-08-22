@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tabscool', {
+    }).state('app.444/tabscool', {
         views: {
             app: {
-                controller: 'app_tabscool',
+                controller: 'app_444_tabscool',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.tabscool');
+                    return app.templateProvider('app.444.tabscool');
                 }
             }
         }
