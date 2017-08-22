@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tabscool', {
+        views: {
+            app: {
+                controller: 'app_tabscool',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tabscool');
+                }
+            }
+        }
     });
 });
