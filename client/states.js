@@ -33,14 +33,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.version1/formsmallcool', {
-        views: {
-            app: {
-                controller: 'app_version1_formsmallcool',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.version1.formsmallcool');
-                }
-            }
-        }
     });
 });
