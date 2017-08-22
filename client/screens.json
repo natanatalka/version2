@@ -22,12 +22,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "version2",
-      "name": "version2",
-      "folder": true,
-      "screens": []
-    },
-    {
       "id": "version3",
       "name": "version3",
       "folder": true,
