@@ -15,6 +15,15 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.blank', {
+        views: {
+            app: {
+                controller: 'app_blank',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.blank');
+                }
+            }
+        }
     }).state('app.multiselect', {
         views: {
             app: {
@@ -30,15 +39,6 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_444_tabscool',
                 templateProvider: function (app) {
                     return app.templateProvider('app.444.tabscool');
-                }
-            }
-        }
-    }).state('app.444/blank', {
-        views: {
-            app: {
-                controller: 'app_444_blank',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.444.blank');
                 }
             }
         }

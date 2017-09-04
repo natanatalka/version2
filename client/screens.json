@@ -1,13 +1,19 @@
 {
   "id": "app",
   "name": "VersioningApp",
-  "startScreen": "app.444.blank",
+  "startScreen": "app.blank",
   "screens": [
     {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "blank",
+      "name": "BLANK",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
     },
     {
       "id": "multiselect",
@@ -26,12 +32,6 @@
           "sourceScreenId": "app.tabbednavigation.tabscool",
           "sourceAppId": "universaltemplates",
           "model": "tabscool"
-        },
-        {
-          "id": "blank",
-          "name": "BLANK",
-          "sourceAppId": "_blank",
-          "sourceScreenId": "app.blank"
         }
       ]
     }
