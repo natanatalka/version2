@@ -6,15 +6,6 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.blank', {
-        views: {
-            app: {
-                controller: 'app_blank',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.blank');
-                }
-            }
-        }
     }).state('app.menu', {
         views: {
             app: {
@@ -39,6 +30,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_444_tabscool',
                 templateProvider: function (app) {
                     return app.templateProvider('app.444.tabscool');
+                }
+            }
+        }
+    }).state('app.444/blank', {
+        views: {
+            app: {
+                controller: 'app_444_blank',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.444.blank');
                 }
             }
         }
