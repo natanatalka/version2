@@ -1,14 +1,8 @@
 {
   "id": "app",
   "name": "VersioningApp",
-  "startScreen": "app.blank",
+  "startScreen": "app.444.blank",
   "screens": [
-    {
-      "id": "blank",
-      "name": "BLANK",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
-    },
     {
       "id": "menu",
       "name": "menu",
@@ -32,6 +26,12 @@
           "sourceScreenId": "app.tabbednavigation.tabscool",
           "sourceAppId": "universaltemplates",
           "model": "tabscool"
+        },
+        {
+          "id": "blank",
+          "name": "BLANK",
+          "sourceAppId": "_blank",
+          "sourceScreenId": "app.blank"
         }
       ]
     }
