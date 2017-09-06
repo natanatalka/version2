@@ -1,5 +1,10 @@
 {
   "type": "object",
   "properties": {},
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "event": "wwww"
+    }
+  ]
 }
