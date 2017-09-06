@@ -39,8 +39,7 @@
       "id": "test",
       "name": "test",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "qwerty"
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

@@ -24,13 +24,5 @@
         }
       }
     }
-  },
-  "qwerty": {
-    "type": "object",
-    "properties": {
-      "qwerty111": {
-        "type": "string"
-      }
-    }
   }
 }
