@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.notificationscaptivating', {
+        views: {
+            app: {
+                controller: 'app_notificationscaptivating',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.notificationscaptivating');
+                }
+            }
+        }
     });
 });

@@ -48,6 +48,13 @@
       "sourceScreenId": "app.tabbednavigation.tabscool",
       "sourceAppId": "universaltemplates",
       "model": "tabscool_2"
+    },
+    {
+      "id": "notificationscaptivating",
+      "name": "Notifications-Captivating",
+      "sourceScreenId": "app.notifications.notificationscaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "notificationscaptivating"
     }
   ],
   "sourceAppId": "_blank",
