@@ -55,6 +55,13 @@
       "sourceScreenId": "app.notifications.notificationscaptivating",
       "sourceAppId": "universaltemplates",
       "model": "notificationscaptivating"
+    },
+    {
+      "id": "categoriesconfident",
+      "name": "Categories-Confident",
+      "sourceScreenId": "app.categories.categoriesconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "categoriesconfident"
     }
   ],
   "sourceAppId": "_blank",
