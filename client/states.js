@@ -69,12 +69,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.categoriesconfident', {
+    }).state('app.tabscool1', {
         views: {
             app: {
-                controller: 'app_categoriesconfident',
+                controller: 'app_tabscool1',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.categoriesconfident');
+                    return app.templateProvider('app.tabscool1');
                 }
             }
         }

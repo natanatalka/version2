@@ -57,11 +57,11 @@
       "model": "notificationscaptivating"
     },
     {
-      "id": "categoriesconfident",
-      "name": "Categories-Confident",
-      "sourceScreenId": "app.categories.categoriesconfident",
+      "id": "tabscool1",
+      "name": "Tabs-Cool1",
+      "sourceScreenId": "app.tabbednavigation.tabscool",
       "sourceAppId": "universaltemplates",
-      "model": "categoriesconfident"
+      "model": "tabscool1"
     }
   ],
   "sourceAppId": "_blank",
