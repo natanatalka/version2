@@ -41,6 +41,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "tabscool"
+    },
+    {
+      "id": "tabscool",
+      "name": "Tabs-Cool",
+      "sourceScreenId": "app.tabbednavigation.tabscool",
+      "sourceAppId": "universaltemplates",
+      "model": "tabscool_2"
     }
   ],
   "sourceAppId": "_blank",
